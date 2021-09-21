@@ -1,6 +1,8 @@
 package model;
 
-public abstract class BasePizza {
+import java.io.Serializable;
+
+public abstract class BasePizza implements Serializable {
     public String additionalIngredients;
     public String deletedIngredients;
 

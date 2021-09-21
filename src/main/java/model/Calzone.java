@@ -5,9 +5,6 @@ import model.interfaces.IPizza;
 import java.io.Serializable;
 
 public class Calzone extends BasePizza implements IPizza, Serializable {
-    public String additionalIngredients;
-    public String deletedIngredients;
-
     public Calzone(String additionalIngredients, String deletedIngredients) {
         this.additionalIngredients = additionalIngredients;
         this.deletedIngredients = deletedIngredients;
